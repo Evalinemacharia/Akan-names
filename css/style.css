@@ -41,3 +41,6 @@ form{
 label{
     font-size: larger;
 }
+select,input{
+    font-size: larger;
+}
