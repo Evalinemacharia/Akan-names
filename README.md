@@ -1,4 +1,4 @@
- Akan names
+## Akan names
 ####  A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  : 4/03/2022
 #### By Evaline Wangu Macharia
 
@@ -13,6 +13,7 @@ The current version runs with no any known bugs.
 ## Technologies Used
 * HTML
 * CSS
+* JAVASCRIPT
 * GIT
 ## Support and contact details
 To be a colaborator, you can contact on my `Email: evalinemacharia@student.moringaschool.com`

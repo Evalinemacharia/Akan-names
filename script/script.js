@@ -1,6 +1,6 @@
-var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
-var maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-var femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
+const maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+const femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 var dateOfBirth = document.getElementById('date').value;
 var monthOfBirth = document.getElementById('month').value;
 var yearOfBirth = document.getElementById('year').value
@@ -34,16 +34,26 @@ function validate(){
     else{ return true;}
 }
 
-
-function dayOfTheWeek(CC, YY, MM, DD){
-    return ((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )% 7);
+function dataInput(){
+    var birthDate = dateOfBirth;
+    var birthMonth = monthOfBirth;
+    var birthYear = yearOfBirth;
+var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
+    
+    console.log(days);
 }
+
+    // d= (((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )% 7;
+    
+
 var fullDate = [];
 fullDate.push(dateOfBirth, monthOfBirth, yearOfBirth);
 // console.log(fullDate);
-function finder(){
-    // var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
-    // var maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-    // var femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
-    console.log(days.length);
-}
+// function finder(){
+//     // var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
+//     // var maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+  
+// }
+    // var d = new Date("(((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )% 7");
+    // var day = days[d.getDay()];
+    // console.log(day);
