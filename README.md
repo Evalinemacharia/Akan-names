@@ -8,6 +8,13 @@ To be able to contribute to this project; you can follow the quick simple steps 
 * Clone the project to your Computer.
 * Open the project with your desired code editor.
 * Enjoy!
+## BDD
+Enter the date of birth 
+Enter the month of birt
+Enter the Year of birth
+Select gender example male or female
+
+
 ## Known Bugs
 The current version runs with no any known bugs.
 ## Technologies Used
