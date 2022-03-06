@@ -8,11 +8,18 @@ To be able to contribute to this project; you can follow the quick simple steps 
 * Clone the project to your Computer.
 * Open the project with your desired code editor.
 * Enjoy!
+
 ## BDD
-Enter the date of birth 
-Enter the month of birt
-Enter the Year of birth
-Select gender example male or female
+Input
+*Date of Birth
+*Month of Birth
+*Year of Birth
+*Gender
+Validation
+*Request user to Fill all Fields
+*Alert user to input correct data  userparameters
+*Give  His/Her Akan names
+
 
 
 ## Known Bugs
